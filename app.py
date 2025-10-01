@@ -20,6 +20,7 @@ def check_password_strength(password):
     else:
         return "❌ Weak Password"
 
+# 🔹 Allow GET + POST here
 @app.route("/", methods=["GET", "POST"])
 def home():
     result = None
